@@ -1,4 +1,4 @@
-import './App.css';
+
 import About from './components/About';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className=' w-screen bg-gradient-to-b from-teal-200 to-teal-500 '>
+    <div className=' bg-gradient-to-b from-teal-200 to-teal-500  '>
       <NavBar />
       <div className='bg-gradient-to-b from-teal-200 to-teal-400'>
         <Hero />
