@@ -7,8 +7,8 @@ import {
 const Contact = () => {
   function handleDownload() {
     const anchor = document.createElement('a');
-    anchor.href = '/Mano-Pihema-Resume.pdf';
-    anchor.download = 'Mano-Pihema-Resume.pdf';
+    anchor.href = '/Mano-Pihema-Resume1.pdf';
+    anchor.download = 'Mano-Pihema-Resume1.pdf';
     document.body.appendChild(anchor);
     anchor.click();
     document.body.removeChild(anchor);
