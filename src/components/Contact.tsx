@@ -16,8 +16,9 @@ const Contact = () => {
 
   return (
     <div id='Contact' className='pt-20 p-6'>
-      <h1 className='text-2xl md:text-6xl'>Thanks for coming by</h1>
-      <h1 className='text-xl md:text-3xl'>do reach out below.</h1>
+    
+      <h1 className='text-2xl md:text-6xl'>Thanks for dropping by!</h1>
+      <h1 className='text-xl md:text-3xl'>Do reach out below.👇</h1>
       <footer className='w-full mx-auto pt-10  px-4 sm:px-20 '>
         <div>
           <div className=' md:h-auto items-center justify-center md:flex '>

@@ -12,7 +12,7 @@ const NavBar = () => {
           <div className='flex items-center justify-between py-3 md:py-5 md:block'>
             <div className='container flex items-center space-x-2'>
               <a
-                href='Home#'
+                href='#'
                 className='text-2xl font-bold transition duration-500 hover:text-blue-400'
               >
                 Mano Pihema

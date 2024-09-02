@@ -8,14 +8,14 @@ const Projects = () => {
     {
       icon: <Cv className='h-20 w-20 ' />,
       title: 'CV Extractor',
-      body: 'Cv Extract uses RAG to query CV documents, providing a simple interface to retrive specific data from a CV.',
+      body: 'Cv Extractor uses RAG to query CV documents, providing a simple interface to retrive specific information from a CV.',
       techStack: ['React', 'LlammaIndex', 'OpenAI', 'Express', 'Supabase'],
       link: 'https://github.com/mano-pihema/cv-extract/#readme',
     },
     {
       icon: <Flip className='h-20 w-20 ' />,
       title: 'Flip Card',
-      body: 'Flip Card helps learners memorize word pairs, these word pairs can be from seperate languages.',
+      body: 'After learning te reo, then forgetting it I made Flip card. Flip Card helps learners memorize word pairs, these word pairs can be from seperate languages.',
       techStack: ['React', 'React Query', 'OpenAI', 'Express', 'SQLite'],
       link: 'https://github.com/mano-pihema/flip-card/#readme',
     },
@@ -29,7 +29,6 @@ const Projects = () => {
   ];
   return (
     <div id='Projects'>
-      {/* <h1 className='container max-w-2xl mx-auto text-8xl text-left' id='Projects'>Projects</h1> */}
       <div>
         {projects.map((project) => (
           <Project {...project} />
