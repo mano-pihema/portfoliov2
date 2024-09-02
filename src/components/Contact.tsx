@@ -7,8 +7,8 @@ import {
 const Contact = () => {
   function handleDownload() {
     const anchor = document.createElement('a');
-    anchor.href = '/Mano-Pihema-Resume1.pdf';
-    anchor.download = 'Mano-Pihema-Resume1.pdf';
+    anchor.href = '/Mano-Pihema-Resume.pdf';
+    anchor.download = 'Mano-Pihema-Resume.pdf';
     document.body.appendChild(anchor);
     anchor.click();
     document.body.removeChild(anchor);
@@ -16,7 +16,6 @@ const Contact = () => {
 
   return (
     <div id='Contact' className='pt-20 p-6'>
-    
       <h1 className='text-2xl md:text-6xl'>Thanks for dropping by!</h1>
       <h1 className='text-xl md:text-3xl'>Do reach out below.👇</h1>
       <footer className='w-full mx-auto pt-10  px-4 sm:px-20 '>
@@ -47,7 +46,6 @@ const Contact = () => {
               onClick={handleDownload}
             >
               <AiOutlineDownload size={30} />
-              {/* <span className=' tool px-10 flex group-hover:scale-100 '>{'download my CV'}</span> */}
               <span className='absolute top-1/2 left-full transform -translate-y-1/2 ml-3 bg-black text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-500'>
                 Download my CV
               </span>

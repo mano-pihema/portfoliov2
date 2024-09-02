@@ -11,7 +11,7 @@ const Experience = () => {
           <h1 className='text-xl md:text-3xl pt-10'>Previously</h1>
           <h1 className='text-3xl md:text-6xl'>I interned at Trademe.</h1>
           <h1 className='text-xl md:text-3xl pt-10'>Looking ahead maybe,</h1>
-          <h1 className='text-3xl md:text-6xl'>...your team?🤔</h1>    
+          <h1 className='text-3xl md:text-6xl'>...your team?🤔</h1>
         </div>
       </div>
     </div>
